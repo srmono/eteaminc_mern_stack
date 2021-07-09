@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/react/eteam/node_modules
+/react/eteam/.pnp
+/react/eteam/.pnp.js
+
+# testing
+/react/eteam/coverage
+
+# production
+/react/eteam/build
+
+# misc
+/react/eteam/.DS_Store
+/react/eteam/.env.local
+/react/eteam/.env.development.local
+/react/eteam/.env.test.local
+/react/eteam/.env.production.local
+
+/react/eteam/npm-debug.log*
+/react/eteam/yarn-debug.log*
+/react/eteam/yarn-error.log*

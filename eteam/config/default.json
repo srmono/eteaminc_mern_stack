@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://venkat:xyz@eteaminc.tworq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://venkat:EteamInc123@eteaminc.tworq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mysecretToken"
 }

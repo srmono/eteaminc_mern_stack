@@ -1,9 +1,14 @@
 const express = require('express');
+const cors = require('cors');
 const connectDB = require("./config/db");
 const app = express();
 
+
 //Connect Database
 connectDB();
+
+//Set cors
+app.use(cors());
 
 // Init Middleware
 app.use(express.urlencoded()); // Parse URL-encoded bodies

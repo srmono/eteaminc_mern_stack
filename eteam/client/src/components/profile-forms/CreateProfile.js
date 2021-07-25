@@ -11,7 +11,7 @@ function CreateProfile({ createProfile, history}) {
         location: '',
         bio: '',
         status: '',
-        gihubusername: '',
+        githubusername: '',
         skills: '',
         youtube: '',
         facebook: '',
@@ -28,7 +28,7 @@ function CreateProfile({ createProfile, history}) {
         location,
         bio,
         status,
-        gihubusername,
+        githubusername,
         skills,
         youtube,
         facebook,
@@ -100,8 +100,8 @@ function CreateProfile({ createProfile, history}) {
                 <input
                     type="text"
                     placeholder="Github Username"
-                    name="gihubusername"
-                    value={gihubusername} onChange={ e => onChange(e)}
+                    name="githubusername"
+                    value={githubusername} onChange={ e => onChange(e)}
                 />
                 <small className="form-text"
                     >If you want your latest repos and a Github link, include your

@@ -16,7 +16,7 @@ function EditProfile({
         location: '',
         bio: '',
         status: '',
-        gihubusername: '',
+        githubusername: '',
         skills: '',
         youtube: '',
         facebook: '',
@@ -36,7 +36,7 @@ function EditProfile({
             location: loading || !profile.location ? '' : profile.location,
             status: loading || !profile.status ? '' : profile.status,
             skills: loading || !profile.skills ? '' : profile.skills.join(","),
-            gihubusername: loading || !profile.gihubusername ? '' : profile.gihubusername,
+            githubusername: loading || !profile.githubusername ? '' : profile.githubusername,
             bio: loading || !profile.bio ? '' : profile.bio,
             twitter: loading || !profile.twitter ? '' : profile.twitter,
             facebook: loading || !profile.facebook ? '' : profile.facebook,
@@ -53,7 +53,7 @@ function EditProfile({
         location,
         bio,
         status,
-        gihubusername,
+        githubusername,
         skills,
         youtube,
         facebook,
@@ -125,8 +125,8 @@ function EditProfile({
                 <input
                     type="text"
                     placeholder="Github Username"
-                    name="gihubusername"
-                    value={gihubusername} onChange={ e => onChange(e)}
+                    name="githubusername"
+                    value={githubusername} onChange={ e => onChange(e)}
                 />
                 <small className="form-text"
                     >If you want your latest repos and a Github link, include your

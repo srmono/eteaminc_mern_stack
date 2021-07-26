@@ -167,7 +167,7 @@ export const addExperience = (formData, history) => async dispatch => {
 
 //Add Education
 
-export const adEducation = (formData, history) => async dispatch => {
+export const addEducation = (formData, history) => async dispatch => {
     try {
         const config = {
             headers: {

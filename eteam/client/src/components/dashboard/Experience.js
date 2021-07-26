@@ -6,7 +6,6 @@ import { deleteExperience } from '../../actions/profile';
 
 function Experience({ experience, deleteExperience }) {
 
-    const date = "2020-01-24T00:00:00.000Z";
     const experiences = experience.map( exp => (
         <tr key={exp._id}> 
             <td> { exp.company }</td>
